@@ -1,6 +1,6 @@
 # Vela
 
-**Scaling Vision-Language-Action Models with Compact Action Curve Parametrization**
+**Scaling Vision-Language-Action Models with Adaptive Action Curve Parametrization**
 
 [Project page](https://clementine24.github.io/Vela/)
 
