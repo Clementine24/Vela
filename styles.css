@@ -48,3 +48,6 @@
 .ebench-table{min-width:900px}.ebench-table thead>tr:first-child th:not(:first-child){text-align:center;border-left:1px solid var(--line)}.ebench-table .group-start{border-left:1px solid var(--line)}.ebench-table .metric-head th{text-align:right;font-size:.75rem;font-weight:500;padding-block:7px 9px}
 @media(hover:hover){.benchmark-table tbody tr:not(.ours):hover>*{background:#f2f7fb}}
 @media(max-width:800px){.benchmark-table tr:not(.metric-head)>:first-child{width:168px}.benchmark-table th,.benchmark-table td{padding-inline:12px}.benchmark-table tr:not(.metric-head)>:first-child{position:sticky;left:0;z-index:1;background:#fff;box-shadow:1px 0 #dce6ee}.benchmark-table thead tr:not(.metric-head)>:first-child{background:#f7f9fb;z-index:2}.ebench-table .metric-head>:first-child{position:static;width:auto;box-shadow:none}.benchmark-table .ours>:first-child{background:#edf6fd;box-shadow:inset 3px 0 var(--blue),1px 0 #dce6ee}.table-title{padding:17px 16px 15px}}
+
+/* Inline project name, echoing the serif Vela wordmark. */
+.vela-name{font-family:Georgia,"Times New Roman",serif;font-style:italic;font-weight:700;font-size:1.04em;letter-spacing:.01em;line-height:inherit;white-space:nowrap;color:var(--blue)}

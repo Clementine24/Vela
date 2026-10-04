@@ -106,7 +106,16 @@ document.querySelectorAll('[data-figure]').forEach(link => {
     document.getElementById('dialog-title').textContent = link.dataset.title;
     const template = document.getElementById(link.dataset.captionTemplate);
     if (template) dialogCaption.replaceChildren(template.content.cloneNode(true));
-    else dialogCaption.textContent = link.dataset.caption;
+    else {
+      const caption = (link.dataset.caption || '').split(/\b(Vela)\b/).map(part => {
+        if (part !== 'Vela') return document.createTextNode(part);
+        const name = document.createElement('span');
+        name.className = 'vela-name';
+        name.textContent = part;
+        return name;
+      });
+      dialogCaption.replaceChildren(...caption);
+    }
     dialog.showModal();
   });
 });
