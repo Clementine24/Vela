@@ -19,4 +19,4 @@ Updating this branch publishes the website. No dependency installation or build 
 - `app.js`: figure dialogs, video chapters, and citation copying.
 - `assets/`: images, videos, logo, and BibTeX file.
 
-Paper and Code links remain marked as forthcoming until their releases are available.
+The Paper button links to the [arXiv preprint](https://arxiv.org/abs/2610.05230). Keep the inline citation and `assets/vela.bib` in sync. The Code link remains marked as coming soon until the code release is available.
