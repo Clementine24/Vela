@@ -2,7 +2,7 @@
 
 **Scaling Vision-Language-Action Models with Adaptive Action Curve Parametrization**
 
-[Project page](https://clementine24.github.io/Vela/)
+[Project page](https://clementine24.github.io/Vela/) · [Paper (arXiv)](https://arxiv.org/abs/2610.05230)
 
 Vela represents robot behavior as compact, continuous action trajectories with motion-dependent horizons.
 
